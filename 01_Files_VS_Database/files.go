@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 	"os"
+	"time"
 )
 
 func SaveData1(path string, data []byte) error {
@@ -44,6 +45,7 @@ func SaveData2(path string, data []byte) error {
 		return err
 	}
 
+	time.Sleep(time.Second * 3)
 	err = os.Rename(tmp, path)
 	return err
 }
