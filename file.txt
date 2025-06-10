@@ -1,1 +1,1 @@
-Write to an open file
+Write to tmp and rename file

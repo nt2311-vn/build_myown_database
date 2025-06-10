@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	err := filesvsdatabase.SaveData1("file.txt", []byte("Write to an open file"))
+	err := filesvsdatabase.SaveData2("file.txt", []byte("Write to tmp and rename file"))
 	if err != nil {
 		log.Fatalln("cannot save data ", err.Error())
 	}
