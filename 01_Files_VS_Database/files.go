@@ -1,3 +1,4 @@
+// Package filesvsdatabase explore the con of file versus database
 package filesvsdatabase
 
 import (
